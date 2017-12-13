@@ -1,0 +1,12 @@
+extends layout
+block contenido
+	h1= titulo
+	a(href="/blog/nuevo/")!= "nuevo post"
+	#articulos
+		- if(typeof(articulos) !== 'undefined')
+			- each articulo in articulos
+				div.articulo
+					div.fecha= articulo.fecha
+					h2.titulo 
+						a(href="/blog/"+articulo._id)!= articulo.titulo
+					div.texto= articulo.texto

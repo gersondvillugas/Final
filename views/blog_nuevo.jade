@@ -1,0 +1,13 @@
+extends layout
+block contenido
+	h1= titulo
+	form( method="post")
+		div
+			div
+				span Titulo :
+				input(type="text", name="titulopost")
+			div
+				span Post :
+				textarea( name="textopost", rows=10, cols=60)
+			div#editArticleSubmit
+				input(type="submit", value="Enviar")
