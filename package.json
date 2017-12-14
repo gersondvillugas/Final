@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gersondvillugas/network.git"
-  },
-  "author": "",
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+   },
+  
+  "author": "gerson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gersondvillugas/network/issues"
